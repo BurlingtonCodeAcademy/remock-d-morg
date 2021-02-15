@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 13vw 74vw 13vw;
+    grid-template-rows: 14vh 5vh auto 5vh 23vh;
+    overflow-x: hidden;
+}
+
+#header{
+    text-align: center;
+    grid-area: 1/2/2/3;
+}
+#main{
+    grid-area: 3/2/4/3;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#main h3{
+    text-align: center;
+    margin-bottom: 7vh;
+}
+
+/*----image----*/
+
+#img-ph{
+    height: 50vh;
+    width: 70vw;
+    border: 5px solid black;
+    background-image: url(/projects/remock-d-morg/Images/fans/fanbreak.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+#txt-center{
+    margin-left: 1.65vw;
+    margin-right: .65vw;
+}/*---wrapped all the main text in a div in order to center within the grid--*/
+
+
+
+/*--------footer-----*/
+
+#footer{
+    grid-area: 6/1/7/4;
+}
