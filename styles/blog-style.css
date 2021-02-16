@@ -28,7 +28,7 @@ body{
     height: 50vh;
     width: 70vw;
     border: 5px solid black;
-    background-image: url(/projects/remock-d-morg/Images/fans/fanbreak.jpg);
+    background-image: url(../Images/fans/fanbreak.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

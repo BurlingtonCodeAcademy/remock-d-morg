@@ -51,7 +51,7 @@ hr{
     width: 55vw;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(/projects/remock-d-morg/Images/fans/lotsOFans.jpg);
+    background-image: url(../Images/fans/lotsOFans.jpg);
     background-position: center;
     background-size: contain;
     border: 3px inset;
@@ -68,14 +68,14 @@ hr{
 }
 
 #small-top{
-    background-image: url(/projects/remock-d-morg/Images/fans/rgb.jpg);
+    background-image: url(../Images/fans/rgb.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #small-bot{
-    background-image: url(/projects/remock-d-morg/Images/fans/clean.png);
+    background-image: url(../Images/fans/clean.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

@@ -12,7 +12,7 @@ html{
 /*----buttons and links----*/
 
 .continue{
-    background: url(/projects/remock-d-morg/Images/continue.png);
+    background: url(../Images/continue.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,14 +22,14 @@ html{
 }
 
 .continue:hover{
-    background: url(/projects/remock-d-morg/Images/continueHov.png);
+    background: url(../Images/continueHov.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .learn-more{
-    background: url(/projects/remock-d-morg/Images/learnMore.png);
+    background: url(../Images/learnMore.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,14 +40,14 @@ html{
 }
 
 .learn-more:hover{
-    background: url(/projects/remock-d-morg/Images/learnMoreHov.png);
+    background: url(../Images/learnMoreHov.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .submit{
-    background-image: url(/projects/remock-d-morg/Images/sendit.png);
+    background-image: url(../Images/sendit.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -72,7 +72,7 @@ figcaption{
 }
 
 #f2{
-    background: url(/projects/remock-d-morg/Images/fans/bedfan.jpg); 
+    background: url(../Images/fans/bedfan.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -80,7 +80,7 @@ figcaption{
 }
 
 #f3{
-    background: url(/projects/remock-d-morg/Images/fans/closeUp.jpg);
+    background: url(../Images/fans/closeUp.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -93,7 +93,7 @@ figcaption{
     text-align: center;
     height: 55vh; 
     width: 100vw;
-    background: url(/projects/remock-d-morg/Images/fans/oriental.jpg);
+    background: url(../Images/fans/oriental.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,14 +125,14 @@ figcaption{
 }
 
 #top-img{
-    background-image: url(/projects/remock-d-morg/Images/fans/goldenhour.jpg);
+    background-image: url(../Images/fans/goldenhour.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #bottom-img{
-    background: url(/projects/remock-d-morg/Images/fans/conteplating.jpg);
+    background: url(../Images/fans/conteplating.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -194,14 +194,14 @@ iframe{
 
 #small-top{
     background-color: black;
-    background-image: url(/projects/remock-d-morg/Images/fans/Best-Bedroom-Fans.png);
+    background-image: url(../Images/fans/Best-Bedroom-Fans.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #small-bot{
-    background: url(/projects/remock-d-morg/Images/fans/fanMag.jpg);
+    background: url(../Images/fans/fanMag.jpg);
     background-size: contain;
     background-position: center;
 }
@@ -210,7 +210,7 @@ iframe{
 /*----buttons------*/
 
 #features-button{
-    background: url(/projects/remock-d-morg/Images/tellmore.png);
+    background: url(../Images/tellmore.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -220,7 +220,7 @@ iframe{
 }
 
 #features-button:hover{
-    background-image: url(/projects/remock-d-morg/Images/tellmoreHov.png);
+    background-image: url(../Images/tellmoreHov.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
