@@ -1,0 +1,89 @@
+
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 13vw 20vw 54vw 13vw;
+    grid-template-rows: 25vh auto auto;
+    overflow-x: hidden;
+}
+
+#header{
+    grid-area: 1/2/2/4;
+    text-align: center;
+}
+#main-left{
+    grid-area: 2/2/3/3;
+    padding-right:2vw;
+    padding-left: 2vw;
+    font-size: 1vw;
+    padding-top: 12vh;
+}
+
+#main-right{
+    grid-area: 2/3/3/4;
+}
+
+.date{
+    background-color: grey;
+    color: white;
+    height: 4vh;
+    width: 5vw;
+    border-radius: 7%;
+    text-align: center;
+    padding-top: .5vh;
+    font-weight: bold;
+}
+
+hr{
+    margin-bottom: 7vh;
+    margin-top: 7vh;
+}
+
+#header hr{
+    width: 60vw;
+    height: 5px
+}
+
+/*-----images---*/
+
+#img-ph{
+    height: 35vh;
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../Images/fans/lotsOFans.jpg);
+    background-position: center;
+    background-size: contain;
+    border: 3px inset;
+}
+
+.small-ph{
+    float: left;
+    height: 14vh;
+    width: 7vw;
+    margin: 3%;
+    margin-right: 6%;
+    margin-left: 0;
+    background-color: black;
+}
+
+#small-top{
+    background-image: url(../Images/fans/rgb.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#small-bot{
+    background-image: url(../Images/fans/clean.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*--------footer-----*/
+
+
+#footer{
+    grid-area: 3/1/4/5;
+}

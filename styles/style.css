@@ -1,0 +1,231 @@
+html{
+    overflow-x: hidden;
+    background-color: #00b0f025;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+body{
+    margin: 0;
+    padding-top: 10vh;
+}
+
+
+
+/*----header-----*/
+
+#header{
+    text-align: center;
+}
+
+#OF{
+    height: 15vh;
+    z-index: 30;
+    padding-bottom: 0;
+}
+
+#header hr{
+    width: 50%;
+    height: 7px;
+}
+
+#features-title{
+    text-align: center;
+    margin-top: 7vh;
+}
+
+#f-button-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+
+#features{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 7vh;
+}
+figure{
+    margin:0;
+}
+
+figcaption{
+    text-align: center;
+    margin-top: 7vh;
+}
+
+.features-ph{
+    height: 24vh;
+    width: 17vw;
+    border: 3px inset lightgray;
+}
+
+/*----featured images----*/
+#f1{
+    background: url(https://cdn.thewirecutter.com/wp-content/uploads/2018/07/roomfans-2x1-9853.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#f2{
+    background: url(../Images/fans/bedfan.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#f3{
+    background: url(../Images/fans/closeUp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/*----page break image----*/
+
+#quote-div{
+    display: inline-block;
+    text-align: center;
+    height: 55vh; 
+    width: 100vw;
+    background: url(../Images/fans/oriental.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10vh;
+    color: rgb(231, 214, 214);
+}
+
+#quote-div h1{
+    padding-top: 15vh;
+}
+
+/*-----allows text to show over page break image---*/
+#fader{
+    margin-top: 7vh;
+    height: 40vh;
+    width: 100vw;
+    background-color: rgba(19, 17, 17, 0.466);
+}
+
+/*-------main articles---*/
+
+.img-ph{
+    height: 35vh;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:black;
+    border: 3px inset lightgray;
+}
+
+#top-img{
+    background-image: url(../Images/fans/goldenhour.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bottom-img{
+    background: url(../Images/fans/conteplating.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main{
+   float: left;
+   width: 40vw;
+   margin-left: 15vw;
+   margin-bottom: 12vh;
+}
+
+#bottom-left{
+    margin-top: 7vh;
+}
+
+iframe{
+    padding-top: 7vh;
+}
+
+/*------main subsection----*/
+
+#main-subsection{
+    float: right;
+    width: 20vw;
+    margin-right: 15vw;
+    margin-bottom: 12vh;
+    margin-top: 10vh;
+}
+
+.date{
+    background-color: grey;
+    color: white;
+    height: 4vh;
+    width: 5vw;
+    border-radius: 7%;
+    text-align: center;
+    padding-top: .5vh;
+    font-weight: bold;
+}
+
+#main-subsection img{
+    float: left;
+}
+
+#note-title{
+    margin-top: 5vh;
+}
+
+.small-ph{
+    float: left;
+    height: 14vh;
+    width: 7vw;
+    margin: 3%;
+    margin-right: 6%;
+    margin-left: 0;
+    background: cornflowerblue;
+}
+
+#small-top{
+    background-color: black;
+    background-image: url(../Images/fans/Best-Bedroom-Fans.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#small-bot{
+    background: url(../Images/fans/fanMag.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+
+/*----buttons------*/
+
+#features-button{
+    background: url(../Images/tellmore.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 5%;
+}
+
+#features-button:hover{
+    background-image: url(../Images/tellmoreHov.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
